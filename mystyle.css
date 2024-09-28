@@ -612,19 +612,117 @@ article {
     margin-left: 0px;
 }
 
-/*--------------- Footer ----------------*/
-
-.jn {
-    font-family: "DM Serif Text", serif;
-    color: white;
-    font-weight: 200;
-    text-align: center;
-    padding: 30px;
-}
-
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   myfuture.html   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-
 
 /*--------------- Header ----------------*/
 
-/*--------------- Footer ----------------*/
+.BGF {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    height: 400px;
+    background-image: url("resources/BG\ Future.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.headerF {
+    color: #c3bbb7;
+    font-size: 80px;
+    font-weight: 300;
+    font-family: "DM Serif Text", serif;
+    padding: 30px;
+    padding-top: 90px;
+    text-align: center;
+    clear: both;
+}
+
+/*--------------- Menu Bar ----------------*/
+
+.menu {
+    box-sizing: border-box;
+    padding: 30px;
+    padding-left: 80px;
+    width: 20%;
+    background-color: #986F66;
+    height: 1300px;
+    text-align: left;
+    border: 1px solid black;
+    float: left;
+    margin-bottom: -300px;
+}
+
+.menuC {
+    font-family: "DM Serif Text", serif;
+    color: #F8E1C9;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 80px;
+
+}
+
+.contentF {
+    box-sizing: border-box;
+    padding: 200px;
+
+    margin-top: 80px;
+    width: 80%;
+    background-color: black;
+    height: 450px;
+    text-align: center;
+    border: 1px solid black;
+    float: right;
+}
+
+.do {
+    color: rgb(209, 201, 201);
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "DM Serif Text", serif;
+}
+
+.subcont {
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: -130px;
+    width: 100%;
+    background-color: rgb(209, 201, 201);
+    height: 300px;
+    text-align: center;
+    border: 1px solid black;
+    color: #131313;
+    font-family: kanit;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.last {
+    box-sizing: border-box;
+    padding: 30px;
+    width: 80%;
+    background-color: #FEFEFE;
+    height: 690px;
+    text-align: center;
+    border: 1px solid black;
+    float: right;
+    margin-top: 80px;
+    margin-bottom: -300px;
+}
+
+.finish {
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+    color: #87635C;
+}
+
+#last {
+    width: 400px;
+    text-align: center;
+}
