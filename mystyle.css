@@ -367,7 +367,7 @@ article {
     margin-bottom: 100px;
 }
 
-.deco {
+#deco {
     width: 20%;
     height: 100px;
     box-sizing: border-box;
@@ -456,7 +456,10 @@ article {
 
 /*--------------- Content ----------------*/
 
-.Journey {
+#Journey {
+    text-decoration: none;
+    text-underline-offset: none;
+    list-style: none;
     clear: both;
     width: 100%;
     background-color: #FEF7D4;
@@ -464,6 +467,15 @@ article {
     text-align: center;
     border: 1px solid #FEF7D4;
     margin-bottom: 150px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3;
+    transition-timing-function: ease;
+}
+
+#Journey:hover {
+    transform: scale(1.4);
+    color: #9d5a29;
 }
 
 #math {
@@ -471,18 +483,42 @@ article {
     margin-left: -400px;
     margin-bottom: -30px;
     clear: both;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3;
+    transition-timing-function: ease;
+}
+
+#math:hover {
+    transform: scale(1.2);
 }
 
 #read {
     width: 150px;
     margin-left: -50px;
     margin-top: -30px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3;
+    transition-timing-function: ease;
+}
+
+#read:hover {
+    transform: scale(1.2);
 }
 
 #gradu {
     width: 250px;
     margin-left: -550px;
     margin-top: 20px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3;
+    transition-timing-function: ease;
+}
+
+#gradu:hover {
+    transform: scale(1.1);
 }
 
 .content1 {
