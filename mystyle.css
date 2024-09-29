@@ -457,9 +457,6 @@ article {
 /*--------------- Content ----------------*/
 
 #Journey {
-    text-decoration: none;
-    text-underline-offset: none;
-    list-style: none;
     clear: both;
     width: 100%;
     background-color: #FEF7D4;
@@ -678,7 +675,7 @@ article {
 
 }
 
-.headerF {
+#headerF {
     color: #c3bbb7;
     font-size: 80px;
     font-weight: 300;
@@ -688,6 +685,7 @@ article {
     text-align: center;
     clear: both;
 }
+
 
 /*--------------- Menu Bar ----------------*/
 
@@ -732,6 +730,15 @@ article {
     font-size: 20px;
     font-weight: 300;
     font-family: "DM Serif Text", serif;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3;
+    transition-timing-function: ease;
+}
+
+#do:hover {
+    transform: scale(1.4);
+    color: #fdc5e7;
 }
 
 .subcont {
@@ -785,9 +792,26 @@ article {
     font-size: 60px;
     text-align: center;
     color: #87635C;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3;
+    transition-timing-function: ease;
+}
+
+#finish:hover {
+    transform: scale(1.4);
+    color: #070707;
 }
 
 #last {
     width: 400px;
     text-align: center;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3;
+    transition-timing-function: ease;
+}
+
+#finish:hover {
+    transform: scale(1.3);
 }
