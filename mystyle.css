@@ -45,12 +45,24 @@ header ul li {
     display: block;
 }
 
+.mycs:hover {
+    color: #b4a4a7;
+}
+
 .F {
     padding-right: 200px;
 }
 
+.F:hover {
+    color: #106ad1;
+}
+
 .J {
     padding-right: 30px;
+}
+
+.J:hover {
+    color: #51c1dd;
 }
 
 #redball {
